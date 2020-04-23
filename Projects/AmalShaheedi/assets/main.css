@@ -1,0 +1,773 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/nnv6qin.css");
+@import url("https://use.typekit.net/nnv6qin.css");
+
+
+body {
+ background: linear-gradient(black, #4B26D7,black, black, black);
+  background-image: url("https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e4791628cafe0471e622706f2d5ed99cc4128ccbf38&rid=giphy.gif");
+  background-repeat: repeat-y;
+  background-size: 100%; 
+ width: 100vw;
+ height: 100vh;
+ overflow-x: hidden;
+}
+
+
+
+#key{
+  display: block;
+}
+
+img{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+}
+
+#play{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+}
+
+#play:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#q{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 67%;
+  top: 5%;
+  position: absolute;
+     z-index: 20;
+}
+
+#q:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#buy{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  left: 75%;
+  top: 6%;
+  z-index: 20;
+}
+
+#buy:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#reset{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 85%;
+  top: 6%;
+  z-index: 20;
+}
+
+#reset:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: none;
+}
+
+
+
+#thefool1{
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 19.7%;
+    left: 16.3%;
+}
+
+@media screen and (min-width: 601px){
+
+#fooltextup{
+
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 39%;
+  top: 1%;
+  padding: 13%;
+  opacity: 0;
+}
+
+
+#uprightfoolbold{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 27%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+
+}
+
+#uprightfoolreg{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 81%;
+  left: -16%;
+  opacity: 0;
+
+}
+
+#fooltextrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 39%;
+  top: -4%;
+  padding: 13%;
+  opacity: 0;
+}
+
+#revfoolbold{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 26%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+
+}
+
+#revfoolreg{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 76%;
+  left: -16%;
+  opacity: 0;
+
+}
+
+#h1judgementup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 26%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2judgementup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 71%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3judgementup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 39%;
+  top: -3%;
+  padding: 13%;
+  opacity: 0;
+}
+
+
+#h1judgementrev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 26%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2judgementrev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 66%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3judgementrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 39%;
+  top: -3%;
+  padding: 13%;
+  opacity: 0;
+}
+
+#h1tempup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2tempup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 52%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3tempup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 3%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1temprev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2temprev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 48%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3temprev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 3%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1moonup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2moonup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 62%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3moonup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 0%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1moonrev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2moonrev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 57%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3moonrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 10%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+
+#h1devilup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2devilup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 44%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3devilup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 0%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1devilrev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2devilrev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 39%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3devilrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 5%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+
+#h1wheelup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2wheelup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 44%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3wheelup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 0%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1wheelrev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2wheelrev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 39%;
+  left: -16%;
+  opacity: 0;
+}
+
+#h3wheelrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: -3%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+
+#h1sunup{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 28%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2sunup{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 24%;
+  left: -15%;
+  opacity: 0;
+}
+
+#h3sunup{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 7%;
+  padding: 9%;
+  opacity: 0;
+}
+
+
+#h1sunrev{
+ font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: white;
+  position: absolute;
+  left: 28%;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+}
+
+#h2sunrev{
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 21%;
+  left: -15%;
+  opacity: 0;
+}
+
+#h3sunrev{
+   font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  left: 46%;
+  top: 8%;
+  padding: 9%;
+  opacity: 0;
+}
+
+}
+
+#judgement{
+    max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 15.7%;
+    left: 14.3%;
+}
+
+
+#temperance{
+    max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 15.7%;
+    left: 15.3%;
+}
+
+#moon{
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 16.7%;
+    left: 17.3%;
+}
+
+#thedevil{
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 19.7%;
+    left: 19.3%;
+}
+
+#wheeloffurtune{
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 20.7%;
+    left: 18.3%;
+}
+
+#index{
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 19.7%;
+    left: 17.3%;
+}
+
+#thesun{
+   max-width: 480px;
+  width: 100%;
+  height: auto;
+    display: block;
+    margin:20px auto;
+    position: absolute;
+    top: 19.7%;
+    left: 18.3%;
+}
+

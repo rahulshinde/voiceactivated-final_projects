@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/nnv6qin.css");
+@import url("https://use.typekit.net/nnv6qin.css");
+
+
+body {
+ background: linear-gradient(black, #4B26D7,black, black, black);
+  background-image: url("https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e4791628cafe0471e622706f2d5ed99cc4128ccbf38&rid=giphy.gif");
+  background-repeat: repeat-y;
+  background-size: 100%; 
+ width: 100vw;
+ height: 100vh;
+ overflow-x: hidden;
+}
+
+
+#key{
+  display: block;
+}
+
+img{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+}
+
+#play{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+}
+
+#play:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#q{
+  width: 10%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 67%;
+  top: 5%;
+}
+
+#q:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#buy{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  left: 75%;
+  top: 6%;
+}
+
+#buy:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+#reset{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 85%;
+  top: 6%;
+}
+
+#reset:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: none;
+}
+
+#container{
+    padding: 10%;
+}
+
+#h1{
+
+  font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  color: white;
+  float: center;
+}
+
+#h2{
+    font-family: democratica, san-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: white;
+  float: center;
+
+}
